@@ -9,5 +9,5 @@ public class KinderGartenPiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KinderGartenPiApplication.class, args);
 	}
-
+rere
 }
