@@ -1,16 +1,15 @@
 package tn.esprit.spring.entity;
 
-import com.sun.istack.NotNull;
 import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.aspectj.bridge.IMessage;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 
 @Entity
@@ -37,4 +36,14 @@ public class User implements Serializable {
     private Role role;
     @Temporal (TemporalType.DATE)
     private Date dateInscription;
+
+//    @OneToMany(cascade = CascadeType.ALL,mappedBy="post")
+//    private List<Post> post;
+
+
+
+
+
+
+
 }

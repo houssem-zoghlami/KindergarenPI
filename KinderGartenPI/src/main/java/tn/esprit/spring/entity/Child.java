@@ -28,6 +28,11 @@ public class Child implements Serializable {
     @Enumerated(EnumType.STRING)
     private Level level;
 
+//    @ManyToOne
+//    User user;
+//    @ManyToOne
+//    Kindergarten kindergarten;
+
 
 
 
